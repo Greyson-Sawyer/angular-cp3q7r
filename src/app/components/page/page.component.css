@@ -28,6 +28,7 @@ video {
   /* pointer-events: none; */
   width: 100%;
   height: auto;
+  animation: loading 2s infinite;
 }
 
 .title-container {
