@@ -75,7 +75,7 @@ video {
   height: 22vh;
   transition: 0ms;
   margin-top: 0.5rem;
-  animation: loading 2s infinite;
+  /* animation: loading 2s infinite; */
 
 }
 
