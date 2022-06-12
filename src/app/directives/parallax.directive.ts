@@ -26,7 +26,7 @@ export class ParallaxDirective implements AfterViewInit {
 
     // ~~ UGLY VERSION
     // console.log('ran');
-    return `50% ${Math.min(
+    return `center ${Math.min(
       Math.max(
         ((this.eleRef.nativeElement.getBoundingClientRect().top +
           this.eleRef.nativeElement.getBoundingClientRect().height) /
