@@ -21,13 +21,13 @@
   position: relative;
   background-color: white;
   /* align-self: flex-start; */
-  animation: loading 2s infinite;
 }
 
 video {
   /* pointer-events: none; */
   width: 100%;
   height: auto;
+  min-height: calc((100vw - 16px) * 0.5625);
   animation: loading 2s infinite;
 }
 
